@@ -194,7 +194,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="1d7e2b85-defe-4aa5-a520-f77840735cb6" name="LogicalFunction 66"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="28249181-df41-47ea-8bd9-95b843ceaa41" name="LogicalFunction 2"/>
+              id="28249181-df41-47ea-8bd9-95b843ceaa41" name="LogicalFunction 222"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="3645b652-f612-4709-9527-5d63b72117c6" name="LogicalFunction 3"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
