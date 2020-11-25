@@ -191,6 +191,10 @@
           id="4fc0cff4-0111-4040-ab9a-cd057a20b693" name="Logical Functions">
         <ownedLogicalFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
             id="a473aab5-466b-4b88-a2e7-2a8c5a903bd2" name="Root Logical Function">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="198e1337-6fdb-4250-9245-ccda97e3f1d2" name="LogicalFunction 1"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="9b56866c-ed20-4fe5-b839-04e90f392444" name="LogicalFunction 2"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="a4aeb56e-e8b1-4142-8e76-46fbd0ccd696" targetElement="#519ea903-6040-4eb9-acf8-d61c0ef8fb02"
               sourceElement="#a473aab5-466b-4b88-a2e7-2a8c5a903bd2"/>
@@ -214,7 +218,14 @@
               id="42bd94f3-91cd-4d7b-aeb6-cd2fe100ed5b" targetElement="#f70bb1ff-d916-488d-a88a-c82fc2fdebfc"
               sourceElement="#734268d1-0a40-4e10-8454-0b2c0efe5313"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="0bb82a0c-ffd7-49e6-b832-bd15e7d932bf" name="LC 1"/>
+              id="0bb82a0c-ffd7-49e6-b832-bd15e7d932bf" name="LC 1">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="da9e3bab-3dde-46b6-8b6e-669dce1eb453" targetElement="#198e1337-6fdb-4250-9245-ccda97e3f1d2"
+                sourceElement="#0bb82a0c-ffd7-49e6-b832-bd15e7d932bf"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="4fbf6164-88d8-483f-a08e-ca65277346cc" targetElement="#9b56866c-ed20-4fe5-b839-04e90f392444"
+                sourceElement="#0bb82a0c-ffd7-49e6-b832-bd15e7d932bf"/>
+          </ownedLogicalComponents>
         </ownedLogicalComponents>
       </ownedLogicalComponentPkg>
       <ownedSystemAnalysisRealizations xsi:type="org.polarsys.capella.core.data.la:SystemAnalysisRealization"
