@@ -232,8 +232,13 @@
               name="LC 2" abstractType="#e0448c07-8695-49ba-8138-6326cd814cc0"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a3be1884-5e45-43f1-adf4-1c1c3ca36ec4"
               name="LC 3" abstractType="#60d6339e-2609-453b-b56e-61d622d1e1c7"/>
+<<<<<<< HEAD
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="d29bcef6-fc49-4cc6-bc12-df1507339bff"
               name="Что же делать?!" abstractType="#3ecfc143-b8d5-460a-8cb9-5fdd1f278a3a"/>
+=======
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="93f27d15-1b93-4cef-a938-8de942624d81"
+              name="LC 4" abstractType="#d3c8049a-31c8-4c77-a8cc-aa643c2751be"/>
+>>>>>>> branch 'main' of https://github.com/Max-Coyote/kamaz-capella-repo.git
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="42bd94f3-91cd-4d7b-aeb6-cd2fe100ed5b" targetElement="#f70bb1ff-d916-488d-a88a-c82fc2fdebfc"
               sourceElement="#734268d1-0a40-4e10-8454-0b2c0efe5313"/>
@@ -277,7 +282,11 @@
                 kind="FLOW"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+<<<<<<< HEAD
               id="3ecfc143-b8d5-460a-8cb9-5fdd1f278a3a" name="Что же делать?!"/>
+=======
+              id="d3c8049a-31c8-4c77-a8cc-aa643c2751be" name="LC 4"/>
+>>>>>>> branch 'main' of https://github.com/Max-Coyote/kamaz-capella-repo.git
         </ownedLogicalComponents>
       </ownedLogicalComponentPkg>
       <ownedSystemAnalysisRealizations xsi:type="org.polarsys.capella.core.data.la:SystemAnalysisRealization"

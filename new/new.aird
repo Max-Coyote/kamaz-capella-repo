@@ -11,7 +11,11 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_ndLcUC7xEeufJMvaBxxRaw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+<<<<<<< HEAD
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_H9SRgC7yEeufJMvaBxxRaw" name="[LAB] Structure" repPath="#_H8HM0C7yEeufJMvaBxxRaw" changeId="62466bf1-92aa-405a-b93a-769ea1f84fa1">
+=======
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_H9SRgC7yEeufJMvaBxxRaw" name="[LAB] Structure" repPath="#_H8HM0C7yEeufJMvaBxxRaw" changeId="7ee552f6-5365-4e05-b2df-dffad6051a63">
+>>>>>>> branch 'main' of https://github.com/Max-Coyote/kamaz-capella-repo.git
         <eAnnotations xmi:type="description:DAnnotation" uid="_H-H_AC7yEeufJMvaBxxRaw" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H-JNIC7yEeufJMvaBxxRaw" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H-JNIS7yEeufJMvaBxxRaw" key="hide.computed.physical.links.filter" value="true"/>
@@ -173,6 +177,7 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_S9gvkS-0EeufLPGLZTxurA" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S9gvki-0EeufLPGLZTxurA" x="900" y="150" height="161"/>
         </children>
+<<<<<<< HEAD
         <children xmi:type="notation:Node" xmi:id="_2j1ncC-3Eeu2idkxd5yVYQ" type="2002" element="_2jUDAC-3Eeu2idkxd5yVYQ">
           <children xmi:type="notation:Node" xmi:id="_2j21kC-3Eeu2idkxd5yVYQ" type="5006"/>
           <children xmi:type="notation:Node" xmi:id="_2j4DsC-3Eeu2idkxd5yVYQ" type="7001">
@@ -181,6 +186,16 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_2j1ncS-3Eeu2idkxd5yVYQ" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2j1nci-3Eeu2idkxd5yVYQ" x="340" y="350"/>
+=======
+        <children xmi:type="notation:Node" xmi:id="_wQMfIC-3EeuinfCCDH6I_A" type="2002" element="_wP7ZYC-3EeuinfCCDH6I_A">
+          <children xmi:type="notation:Node" xmi:id="_wQNGMC-3EeuinfCCDH6I_A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_wQNGMS-3EeuinfCCDH6I_A" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_wQNGMi-3EeuinfCCDH6I_A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_wQNGMy-3EeuinfCCDH6I_A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_wQMfIS-3EeuinfCCDH6I_A" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQMfIi-3EeuinfCCDH6I_A" x="420" y="60" width="703"/>
+>>>>>>> branch 'main' of https://github.com/Max-Coyote/kamaz-capella-repo.git
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_H91EEi7yEeufJMvaBxxRaw"/>
         <edges xmi:type="notation:Edge" xmi:id="_XUpH4C-0EeufLPGLZTxurA" type="4001" element="_XThtkC-0EeufLPGLZTxurA" source="_XUQtYC-0EeufLPGLZTxurA" target="_XUc6oC-0EeufLPGLZTxurA">
@@ -346,6 +361,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='LAB%20DataFlow%20between%20Logical%20Components']"/>
     </ownedDiagramElements>
+<<<<<<< HEAD
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_11yOoC-3Eeu2idkxd5yVYQ" name="C 2" sourceNode="_11xAgS-3Eeu2idkxd5yVYQ" targetNode="_11vyYC-3Eeu2idkxd5yVYQ">
       <target xmi:type="org.polarsys.capella.core.data.fa:ComponentExchange" href="new.melodymodeller#2f3100ec-34c3-4592-b9cd-4f91b0791092"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:ComponentExchange" href="new.melodymodeller#2f3100ec-34c3-4592-b9cd-4f91b0791092"/>
@@ -360,6 +376,13 @@
       <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="new.melodymodeller#d29bcef6-fc49-4cc6-bc12-df1507339bff"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.la:LogicalComponent" href="new.melodymodeller#3ecfc143-b8d5-460a-8cb9-5fdd1f278a3a"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2jVRIC-3Eeu2idkxd5yVYQ" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="195,230,255" foregroundColor="150,177,218">
+=======
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_wP7ZYC-3EeuinfCCDH6I_A" name="LC 4">
+      <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="new.melodymodeller#93f27d15-1b93-4cef-a938-8de942624d81"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="new.melodymodeller#93f27d15-1b93-4cef-a938-8de942624d81"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.la:LogicalComponent" href="new.melodymodeller#d3c8049a-31c8-4c77-a8cc-aa643c2751be"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wP7ZYS-3EeuinfCCDH6I_A" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="195,230,255" foregroundColor="150,177,218">
+>>>>>>> branch 'main' of https://github.com/Max-Coyote/kamaz-capella-repo.git
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']"/>
