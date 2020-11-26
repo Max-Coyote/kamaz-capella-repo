@@ -199,10 +199,13 @@
               id="c542479b-0980-4710-8291-8a671c9b162d" name="LogicalFunction 3"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="7bb7d8c8-7ed3-456b-8b36-485aa174bb01" name="Здравствуйте, Светлана Сергеевна!"/>
+<<<<<<< HEAD
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="b684fb2c-ce70-4c6c-88c6-07f8ae553efb" name="Нина, салют!"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="e1069cbb-d9d9-4041-a01e-44fed2f07ff7" name="Надеюсь, заработает"/>
+=======
+>>>>>>> parent of 73f3c4e... Hey!
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="a4aeb56e-e8b1-4142-8e76-46fbd0ccd696" targetElement="#519ea903-6040-4eb9-acf8-d61c0ef8fb02"
               sourceElement="#a473aab5-466b-4b88-a2e7-2a8c5a903bd2"/>
@@ -220,16 +223,20 @@
             name="Logical System" abstractType="#734268d1-0a40-4e10-8454-0b2c0efe5313"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="734268d1-0a40-4e10-8454-0b2c0efe5313" name="Logical System">
+<<<<<<< HEAD
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
               id="8c0b210a-56b4-45aa-971e-0344bb1f48d1" name="C 1" source="#cd5e8a08-cbd6-443d-bce4-58a9aad364ab"
               target="#f822f29c-260e-4f3a-9c41-ac8d0261231e" kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
               id="2f3100ec-34c3-4592-b9cd-4f91b0791092" name="C 2" source="#b48f8454-31b1-46d1-a207-5012f1ca3445"
               target="#a6b96959-7d78-4cb5-9df4-bb2443c10414" kind="FLOW"/>
+=======
+>>>>>>> parent of 73f3c4e... Hey!
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9288de89-8633-4db0-96a3-b64b2bc1a821"
               name="LC 1" abstractType="#0bb82a0c-ffd7-49e6-b832-bd15e7d932bf"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c85da406-063e-4112-83ba-b30d09d8f55c"
               name="LC 2" abstractType="#e0448c07-8695-49ba-8138-6326cd814cc0"/>
+<<<<<<< HEAD
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a3be1884-5e45-43f1-adf4-1c1c3ca36ec4"
               name="LC 3" abstractType="#60d6339e-2609-453b-b56e-61d622d1e1c7"/>
 <<<<<<< HEAD
@@ -239,6 +246,8 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="93f27d15-1b93-4cef-a938-8de942624d81"
               name="LC 4" abstractType="#d3c8049a-31c8-4c77-a8cc-aa643c2751be"/>
 >>>>>>> branch 'main' of https://github.com/Max-Coyote/kamaz-capella-repo.git
+=======
+>>>>>>> parent of 73f3c4e... Hey!
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="42bd94f3-91cd-4d7b-aeb6-cd2fe100ed5b" targetElement="#f70bb1ff-d916-488d-a88a-c82fc2fdebfc"
               sourceElement="#734268d1-0a40-4e10-8454-0b2c0efe5313"/>
@@ -253,6 +262,7 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="fc413b78-d4e8-48f9-97b0-1e2f4828ee17" targetElement="#7bb7d8c8-7ed3-456b-8b36-485aa174bb01"
                 sourceElement="#0bb82a0c-ffd7-49e6-b832-bd15e7d932bf"/>
+<<<<<<< HEAD
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="989d11c4-a193-494b-abea-421a3b729841" targetElement="#b684fb2c-ce70-4c6c-88c6-07f8ae553efb"
                 sourceElement="#0bb82a0c-ffd7-49e6-b832-bd15e7d932bf"/>
@@ -262,6 +272,8 @@
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="a6b96959-7d78-4cb5-9df4-bb2443c10414" name="CP 2" orientation="IN"
                 kind="FLOW"/>
+=======
+>>>>>>> parent of 73f3c4e... Hey!
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="e0448c07-8695-49ba-8138-6326cd814cc0" name="LC 2">
@@ -272,6 +284,7 @@
                 id="b48f8454-31b1-46d1-a207-5012f1ca3445" name="CP 1" orientation="OUT"
                 kind="FLOW"/>
           </ownedLogicalComponents>
+<<<<<<< HEAD
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="60d6339e-2609-453b-b56e-61d622d1e1c7" name="LC 3">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -287,6 +300,8 @@
 =======
               id="d3c8049a-31c8-4c77-a8cc-aa643c2751be" name="LC 4"/>
 >>>>>>> branch 'main' of https://github.com/Max-Coyote/kamaz-capella-repo.git
+=======
+>>>>>>> parent of 73f3c4e... Hey!
         </ownedLogicalComponents>
       </ownedLogicalComponentPkg>
       <ownedSystemAnalysisRealizations xsi:type="org.polarsys.capella.core.data.la:SystemAnalysisRealization"
