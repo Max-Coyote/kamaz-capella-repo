@@ -201,6 +201,8 @@
               id="7bb7d8c8-7ed3-456b-8b36-485aa174bb01" name="Здравствуйте, Светлана Сергеевна!"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="b684fb2c-ce70-4c6c-88c6-07f8ae553efb" name="Нина, салют!"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="e1069cbb-d9d9-4041-a01e-44fed2f07ff7" name="Надеюсь, заработает"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="a4aeb56e-e8b1-4142-8e76-46fbd0ccd696" targetElement="#519ea903-6040-4eb9-acf8-d61c0ef8fb02"
               sourceElement="#a473aab5-466b-4b88-a2e7-2a8c5a903bd2"/>
@@ -256,6 +258,9 @@
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="60d6339e-2609-453b-b56e-61d622d1e1c7" name="LC 3">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="da540c9d-d203-4532-8b11-67905596c262" targetElement="#e1069cbb-d9d9-4041-a01e-44fed2f07ff7"
+                sourceElement="#60d6339e-2609-453b-b56e-61d622d1e1c7"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="f822f29c-260e-4f3a-9c41-ac8d0261231e" name="CP 1" orientation="IN"
                 kind="FLOW"/>
